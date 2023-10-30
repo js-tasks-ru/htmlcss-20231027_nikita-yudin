@@ -1,0 +1,54 @@
+body{
+    color: white;
+    margin: 0;
+}
+header {
+    background: red;
+    text-align: center;
+}
+nav {
+    background: orange;
+    text-align: center;
+    padding: 0;
+
+}
+.nav-menu { 
+    list-style-type: none;
+    padding: 10px;   
+    margin: 0;
+    display: inline-block;
+}
+.nav-menu li {  
+    margin: 0;
+    display: inline-block;
+}
+article {
+background: blue;
+padding-left: 0;
+}
+.article-title {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+footer {
+    background: violet;
+    text-align: center;
+}
+main {
+    background: green;
+    padding: 10px;
+}
+a {
+    color: white;
+}
+h1 {
+    margin: 0;
+}
+ul {
+margin: 0;
+padding-bottom: 30px;
+}
+ol {
+    padding-bottom: 30px;
+}
+
