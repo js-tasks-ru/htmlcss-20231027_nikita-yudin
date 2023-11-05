@@ -18,7 +18,14 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
-
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+h1, h2 {
+    margin: 0;
+}
 * {
     font-family: 'Roboto', sans-serif;
 }
