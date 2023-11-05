@@ -1,1 +1,71 @@
-/* Стилизация кнопки */
+.container {
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.button__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+button:active {
+    color: black;
+    transition: color 200ms ease-in-out;   
+}
+.one {
+    background: #4263EB;
+}
+.one:hover {
+    background: #2342C0;
+}
+.cursor {
+    cursor: not-allowed;
+}
+.two {
+    background: #4263EB;
+    opacity: 0.4;
+}
+.two:hover{
+    background: #4263EB;
+    opacity: 0.1;
+}
+.three {
+    background: #7048E8;
+}
+.three:hover {
+    background: #5028C6;
+}
+.four {
+    background: #7048E8;
+    opacity: 0.4;
+}
+.four:hover {
+    opacity: 0.1;
+}
+.five {
+    background: white;
+    color: #495057;
+    border: 1px solid #ACB5BD;
+}
+.five:hover {
+    background: white;
+    color: #495057;
+    border-color: #212429;
+}
+.six {
+    background: white;
+    color:  #495057;
+    border: 1px solid #ACB5BD;
+    opacity: 0.4;
+}
+.six:hover {
+    opacity: 0.1;
+}
