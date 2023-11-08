@@ -1,4 +1,4 @@
-main {
+.main {
     /* удалить высоту*/
     height: 1036px; 
     background: var(--grey-2);

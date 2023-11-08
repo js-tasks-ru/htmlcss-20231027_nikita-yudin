@@ -29,3 +29,19 @@ h1, h2 {
 * {
     font-family: 'Roboto', sans-serif;
 }
+.title {
+    color: var(--Black, #212429);
+    font-family: Inter;
+}
+.title_XL {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+}
+.title_L {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
