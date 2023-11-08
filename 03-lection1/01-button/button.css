@@ -9,7 +9,6 @@ h1 {
 .button-col {
     display: flex;
     flex-direction: column;
-    width: 190px;
     gap: 30px;
 }
 .btn {
@@ -26,30 +25,30 @@ h1 {
     color: black;
     transition: color 200ms ease-in-out;   
 }
-.btn_disabled {
+.btn:disabled {
     cursor: not-allowed;
     opacity: 0.4;
 }
-.btn-primary {
+.btn_primary {
     background: #4263EB; 
     color: white;
 }
-.btn-primary:hover:not(.btn_disabled) {
+.btn_primary:hover:not(.btn:disabled) {
     background: #2342C0; 
 }
-.btn-secondary {
+.btn_secondary {
     background: #7048E8;
     color: white;
 }
-.btn-secondary:hover:not(.btn_disabled) {
+.btn_secondary:hover:not(.btn:disabled) {
     background: #5028C6;
 }
-.btn-alternate {
+.btn_alternate {
     background: transparent;
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
     transition: border 200ms ease-in-out;
 }
-.btn-alternate:hover:not(.btn_disabled) {
+.btn_alternate:hover:not(.btn:disabled) {
     border: 1px solid var(--black);
 }
