@@ -42,3 +42,15 @@
     font-weight: 500;
     line-height: 48px;
 }
+.title_M {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.title_S {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}

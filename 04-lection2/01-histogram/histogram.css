@@ -1,0 +1,39 @@
+.diagram {
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 354px;
+    max-height: 185px;
+    border: 1px solid var(--grey-3);
+    margin-left: 100px;
+}
+.graph {
+    height: 50px;
+    align-items: baseline;
+    display: flex;
+    margin: 39px 29px 15px 26px;
+    gap: 1px;
+}
+.graph__item:hover {
+    cursor: pointer;
+}
+.graph__item {
+    width: 9px;
+    background-color: #4263EB;
+}
+.top{
+    margin: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__M {
+    text-decoration: none;
+}
+.title_S {
+    margin: 0;
+    margin-left: 24px;
+}
+.title_M {
+    opacity: 0.8;
+}
