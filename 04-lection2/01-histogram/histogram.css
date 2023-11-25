@@ -1,39 +1,47 @@
 .diagram {
     display: inline-block;
     border-radius: 5px;
-    width: 100%;
-    max-width: 354px;
-    max-height: 185px;
     border: 1px solid var(--grey-3);
-    margin-left: 100px;
+    padding: 16px 24px 24px;
 }
-.graph {
+.diagram__wrapper {
     height: 50px;
-    align-items: baseline;
+    align-items: flex-end;
     display: flex;
-    margin: 39px 29px 15px 26px;
     gap: 1px;
 }
-.graph__item:hover {
+.diagram__col:hover {
     cursor: pointer;
 }
-.graph__item {
+.diagram__col {
     width: 9px;
     background-color: #4263EB;
 }
-.top{
-    margin: 0 24px;
+.diagram__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.title__M {
+.diagram__link {
     text-decoration: none;
+    color: var(--blue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
-.title_S {
-    margin: 0;
-    margin-left: 24px;
+.diagram__total {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 39px;
 }
-.title_M {
+.diagram__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     opacity: 0.8;
+    margin-bottom: 6px;
 }
