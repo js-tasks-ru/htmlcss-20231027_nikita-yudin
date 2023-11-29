@@ -1,5 +1,5 @@
 .tooltip {
-    text-align: center;
+    display: inline-block;
     position: relative;
 }
 .tooltip__trigger {
@@ -22,6 +22,8 @@
     left: 50%;
     transform: translateX(-50%);
     display: none;
+    width: max-content;
+    max-width: 300px;
 }
 .tooltip__bubble:before {
     content: '';
