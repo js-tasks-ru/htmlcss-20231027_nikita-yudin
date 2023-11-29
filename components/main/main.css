@@ -1,5 +1,33 @@
-main {
-    /* удалить высоту*/
-    height: 1036px; 
+.main {
     background: var(--grey-2);
+}
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 350px;
+    height: 367px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+}
+.preview {
+    background: #F9FAFC;
+    padding: 68px 0 204px;
+}
+.preview__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card_text {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+    color: var(--Black, #212429);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 30px;
 }
