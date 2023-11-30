@@ -1,8 +1,9 @@
 .diagram {
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid var(--grey-3);
     padding: 16px 24px 24px;
+    width: 354px;
 }
 .diagram__wrapper {
     height: 50px;
@@ -14,7 +15,7 @@
     cursor: pointer;
 }
 .diagram__col {
-    width: 9px;
+    flex-basis: 100%; 
     background-color: #4263EB;
 }
 .diagram__top {
