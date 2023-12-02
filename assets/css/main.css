@@ -18,27 +18,18 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    box-sizing: border-box;
+}
+h1, h2 {
+    margin: 0;
+}
+
 .container {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-}
-* {
-    font-family: 'Roboto', sans-serif;
-}
-.title {
-    color: var(--Black, #212429);
-    font-family: Inter;
-}
-.title_XL {
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 64px;
-}
-.title_L {
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 48px;
 }
