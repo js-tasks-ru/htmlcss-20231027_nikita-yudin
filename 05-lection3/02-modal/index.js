@@ -3,17 +3,12 @@
     const modal = document.getElementById('modal');
     const modalOpen = document.getElementById('modal-open');
 
-    if (!close || !modalOpen || !modal) {
-        return;
-    }
-
-    modalOpen.addEventListener('click', () => {
-        modal.style.display = 'block';
+    modalOpen.addEventListener("click", () => {
+        modal.classList.add("open");
         document.body.overflow = 'hidden';
-    });
-
-    close.addEventListener('click', () => {
-        modal.style.display = 'none';
+    })
+    close.addEventListener("click", () => {
+        modal.classList.remove("open");
         document.body.overflow = 'initial';
-    });
+    })
 })();
